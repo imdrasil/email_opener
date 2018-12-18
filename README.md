@@ -14,7 +14,7 @@ dependencies:
 
 ## Usage
 
-Depending on your email library you will also need adapter. Adapter for [carbon](https://github.com/luckyframework/carbon) is in the box.
+Depending on used email library you need to implement adapter for `EmailOpener`. ATM this library is delivered with [carbon](https://github.com/luckyframework/carbon) adaptor on the board. Here is simple example of basic carbon base mailer:
 
 ```crystal
 require "email_opener/carbon_adapter"
@@ -77,4 +77,4 @@ end
 
 - [Roman Kalnytskyi](https://github.com/imdrasil) - creator and maintainer
 
-This library is inspired by ruby library [email_opener](https://github.com/ryanb/email_opener).
+This library is inspired by ruby library [letter_opener](https://github.com/ryanb/letter_opener).

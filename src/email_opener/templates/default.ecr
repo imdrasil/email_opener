@@ -67,7 +67,7 @@
           <dd><strong><%= h subject %></strong></dd>
 
           <dt>Date:</dt>
-          <dd><%= Time.now.to_s("%b %e, %Y %I:%M:%S %p") %></dd>
+          <dd><%= Time.local.to_s("%b %e, %Y %I:%M:%S %p") %></dd>
 
           <% unless to.empty? %>
             <dt>To:</dt>

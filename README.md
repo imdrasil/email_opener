@@ -1,4 +1,4 @@
-# Email Opener [![Build Status](https://travis-ci.org/imdrasil/email_opener.svg)](https://travis-ci.org/imdrasil/email_opener) [![Latest Release](https://img.shields.io/github/release/imdrasil/email_opener.svg)](https://github.com/imdrasil/email_opener/releases) [![Docs](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://imdrasil.github.io/email_opener/versions)
+# Email Opener [![Latest Release](https://img.shields.io/github/release/imdrasil/email_opener.svg)](https://github.com/imdrasil/email_opener/releases) [![Docs](https://img.shields.io/badge/docs-available-brightgreen.svg)](https://imdrasil.github.io/email_opener/versions)
 
 Preview email in the default browser instead of sending it. This means you don't need to set up email delivery in your development environment, and you no longer need to worry about accidentally sending a test email to someone else's address.
 
